@@ -16,7 +16,7 @@ Full course syllabus and contact hours reference: [computer_vision.txt](computer
 | :---: | :--- | :---: | :---: | :--- |
 | **Unit 1** | [Image Formation & Processing](assignments/Unit%201/README.md) | 9 | 📘 Study Guide Ready | Pinhole & Thin-Lens geometry, Radiometry, Digitization, Affine/Rigid transforms, Histogram Equalization, 2D Convolution, Fourier Filtering. |
 | **Unit 2** | [Feature Detection & Segmentation](assignments/Unit%202/README.md) | 9 | 📘 Study Guide Ready | Canny Edge Detection, Harris Corner Detector, SIFT & HOG Descriptors, Morphology (Erosion/Dilation), Watershed, Split & Merge, Normalized Cut. |
-| **Unit 3** | [Camera Calibration](assignments/Unit%203/README.md) | 8 | 📘 Study Guide Ready | Intrinsic ($K$) & Extrinsic ($[R \mid t]$) parameters, Projection Matrix $P$, Radial Distortion (Barrel/Pincushion), Zhang's Method, Reprojection Error. |
+| **Unit 3** | [Camera Calibration](assignments/Unit%203/README.md) | 8 | 📘 Study Guide Ready | Intrinsic (K) & Extrinsic ([R | t]) parameters, Projection Matrix P, Radial Distortion (Barrel/Pincushion), Zhang's Method, Reprojection Error. |
 | **Unit 4** | Motion Representation | 8 | 📂 Assignments Sorted | Motion field, Motion parallax, Optical flow, Brightness constancy equation, Lucas-Kanade vs. Farneback, Affine flow. |
 | **Unit 5** | Motion Tracking & Recognition | 8 | 📂 Assignments Sorted | Statistical filtering, Kalman Filter, Observability, Shape alignment, Appearance-based methods, Eigenfaces/PCA. |
 
@@ -34,8 +34,8 @@ Comprehensive markdown guides tailored for students preparing for examinations. 
 4. **Assignment Mapping**: Direct solutions and references to all assigned tutorial questions and 60+ MCQ question banks.
 
 - 📖 **[Unit 1 Study Guide](assignments/Unit%201/README.md)**: Thin lens derivation, 2D rotation & translation numerical, CDF histogram equalization algorithm, 2D convolution with averaging kernel, periodic noise filtering.
-- 📖 **[Unit 2 Study Guide](assignments/Unit%202/README.md)**: 4-step Canny algorithm, Harris structure tensor & response formula, SIFT 128-d descriptor, HOG pedestrian pipeline, morphological matrix erosion, Normalized Cut ($Ncut$).
-- 📖 **[Unit 3 Study Guide](assignments/Unit%203/README.md)**: Camera projection equation ($3 \times 4$ matrix $P$), Intrinsic parameters ($f_x, f_y, c_x, c_y, s$), Barrel vs. Pincushion distortion, Zhang's checkerboard calibration, RQ decomposition, Reprojection error.
+- 📖 **[Unit 2 Study Guide](assignments/Unit%202/README.md)**: 4-step Canny algorithm, Harris structure tensor & response formula, SIFT 128-d descriptor, HOG pedestrian pipeline, morphological matrix erosion, Normalized Cut (Ncut).
+- 📖 **[Unit 3 Study Guide](assignments/Unit%203/README.md)**: Camera projection equation (3 × 4 matrix P), Intrinsic parameters (fx, fy, cx, cy, s), Barrel vs. Pincushion distortion, Zhang's checkerboard calibration, RQ decomposition, Reprojection error.
 
 ---
 
