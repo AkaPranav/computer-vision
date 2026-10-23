@@ -106,8 +106,16 @@ Geometry tells us **where** a point lands on the sensor; **Radiometry** tells us
 ### Formal Definition
 > **Radiometry**: The branch of optical science that measures physical quantities of electromagnetic radiation (including visible light) in terms of radiant energy, radiant power (flux), irradiance (power received per unit area), and radiance (power emitted per unit solid angle per unit projected area).
 
-* **Irradiance ($E$)**: Light power arriving at a surface ($W/m^2$).
-* **Radiance ($L$)**: Light power emitted/reflected from a surface into a specific direction ($W/(m^2 \cdot sr)$).
+* **Irradiance ($E$)**: Total light power arriving at a surface per unit area.
+  - **Unit**: **Watts per square meter** ($\text{W}/\text{m}^2$).
+  - *Plain English*: How much total light falls onto a $1\,\text{m} \times 1\,\text{m}$ surface patch.
+* **Radiance ($L$)**: Light power emitted or reflected from a surface in a specific direction.
+  - **Unit**: **Watts per square meter per steradian** ($\text{W} / (\text{m}^2 \cdot \text{sr})$).
+  - *Plain English Breakdown*:
+    - **$\text{W}$ (Watts)**: Light energy per second (power).
+    - **$\text{m}^2$ (Square Meter)**: The surface area producing/reflecting the light.
+    - **$\text{sr}$ (Steradian)**: The 3D cone angle (direction) in which the light is traveling toward your camera lens.
+  - *Intuition*: Radiance is what human eyes and camera sensors directly perceive as **surface brightness** when looking at an object from a specific angle.
 * **Exam Relevance *(AS03 MCQ Q2, AS01 Q10a)*:** Radiometry deals with the **measurement of light energy and intensity**.
 
 ---
